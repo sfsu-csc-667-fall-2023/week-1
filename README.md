@@ -29,4 +29,5 @@ Create a program that can:
     * Fetch keys by value
     * Comments or blank lines
     * Output format may change
+    * Input format may change (why just a file?)
     * Anything else?
