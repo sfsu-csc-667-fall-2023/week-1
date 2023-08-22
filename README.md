@@ -27,5 +27,6 @@ Create a program that can:
 * How can we guard against change?
     * Multiple values for a single key
     * Fetch keys by value
+    * Comments or blank lines
     * Output format may change
     * Anything else?
