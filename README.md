@@ -23,7 +23,30 @@ Create a program that can:
 ### Design 1
 * What do we need to create?
     * What is the data? 
+      - text file (contents of the text file)
+      - pair (key, value)
     * What are the roles that objects in this system will play?
+      - KeyValuePairCollection: insert(k, v), read(k) => v
+      - Line: process() => 2 values
+      - Lexer: lex() => KeyValuePairCollection
+      - ~~Reader: next(), hasNext()~~
+      - Driver
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * How can we guard against change?
     * Multiple values for a single key
     * Fetch keys by value
